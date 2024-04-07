@@ -27,6 +27,16 @@ Then, install the dependencies:
 pip install -r requirements.txt
 ```
 
+### Usage
+```commandline
+python3 web-narrator.py <website link you wish to describe>
+```
+
+Example:
+```commandline
+python3 web-narrator.py https://namaeconde.github.io/
+```
+
 
 ## Built With
 * [Anthropic API][anthropiclink] - The AI used for script generation.
